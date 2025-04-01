@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Orbitron', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    max-width: 100%;
+  
+  
+  
+  }
+  
+  body {
+    background: #7a7b7e;
+    background: -webkit-linear-gradient(to right, #87888a, #4c535f);
+    background: linear-gradient(to right, #adb5c4, #444b57);
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+
+
+  /* Config de colores */
+:root {
+    --primary-color: #ca394c;
+    /* Rojo principal */
+    --accent-color: #e74c3c;
+    /* Rojo de acento */
+    --text-color-oscuro: #333333;
+    /* Texto oscuro */
+    --text-color-blanco: #faf5f5;
+    /* Texto claro */
+    --dark-gray: #4b4b4b;
+    /* Gris oscuro */
+  }
+  
+
+  .container-1 {
+    background-image: url(imagenes/camion1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Config de Container-2 */
+
+  .container-2 {
+
+    margin: auto;
+    display: flex;
+  }
+  .serv-1 {
+    margin: auto;
+    background-color: #7a7b7e; ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .img-serv-1 {
+    width: 100%;
+    margin: auto;
+  }
+  .img-serv-1 img {
+
+    width: 100%;
+    height: 500px;
+  }
+
+
+  .txt-serv-1 { 
+
+    width: 100%;
+    height: 500px;
+  }
+
+
+
+  .serv-2 {
+    margin: auto;
+    background-color: #19317a; ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .img-serv-2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .img-serv-2 video {
+
+    width: 100%;
+    height: 500px;
+    margin: 0;
+  }
+
+
+  .txt-serv-2 { 
+
+    width: 100%;
+    height: 100%;
+  }
