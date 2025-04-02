@@ -12,9 +12,7 @@
   }
   
   body {
-    background: #7a7b7e;
-    background: -webkit-linear-gradient(to right, #87888a, #4c535f);
-    background: linear-gradient(to right, #adb5c4, #444b57);
+    background: #fefefa;
     align-items: center;
     justify-content: center;
   
@@ -45,6 +43,7 @@
     width: 100%;
     height: 500px;
   }
+  
   
 
 
@@ -99,10 +98,11 @@
   }
   .serv-1 {
     margin: auto;
-    background-color: #7a7b7e; ;
+    background-color: #b3b4b6; ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     
   }
 
@@ -118,7 +118,6 @@
 
 
   .txt-serv-1 { 
-
     width: 100%;
     height: 500px;
   }
@@ -127,10 +126,11 @@
 
   .serv-2 {
     margin: auto;
-    background-color: #19317a; ;
+    background-color: #b3b4b6 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
     
   }
 
@@ -151,4 +151,67 @@
 
     width: 100%;
     height: 100%;
+  }
+  
+
+
+
+  /* Config de Container-3 */
+
+
+  .imagen-fondo {
+    background-image: url(imagenes/imagen-fondo.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 30em;
+    margin-top: 45px;
+    border: solid black 3px;
+
+  }
+  hr {
+
+    border: 0;
+
+    height: 2px;
+
+    background: #333;
+
+    background-image: linear-gradient(to right, #8abe8f, #333, #8abe8f);
+
+}
+  .sobre-nosotros {
+    
+    text-align: center;
+    margin: auto;
+    background-color: #8abe8f;
+    margin-top: 100px;
+    padding: 10px;
+  }
+  
+
+
+
+  /* Config de Container-4 */
+
+  .ubicacion {
+    margin-top: 45px;
+    width: 100%;
+    height: 300px; 
+  }
+
+
+
+  /* Config de Container-5 */
+
+  .intro-empresas {
+    
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    margin-top: 45px;
+  }
+  .intro-empresas h2 {
+    color: white;
   }
