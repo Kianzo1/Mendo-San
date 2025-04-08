@@ -1,209 +1,250 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Orbitron', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    max-width: 100%;
-  
-  
-  
-  }
-  
-  body {
-    background: #fefefa;
-    align-items: center;
-    justify-content: center;
-  
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Orbitron', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  max-width: 100%;
 
 
-
-  /* Config de colores */
-:root {
-    --primary-color: #ca394c;
-    /* Rojo principal */
-    --accent-color: #e74c3c;
-    /* Rojo de acento */
-    --text-color-oscuro: #333333;
-    /* Texto oscuro */
-    --text-color-blanco: #faf5f5;
-    /* Texto claro */
-    --dark-gray: #4b4b4b;
-    /* Gris oscuro */
-  }
-  
-
-  .container-1 {
-    background-image: url(imagenes/camion1.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-  }
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Config de Container-2 */
-
-  .container-2 {
-
-    margin: auto;
-    display: flex;
-  }
-  .serv-1 {
-    margin: auto;
-    background-color: #b3b4b6; ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    
-  }
-
-  .img-serv-1 {
-    width: 100%;
-    margin: auto;
-  }
-  .img-serv-1 img {
-
-    width: 100%;
-    height: 500px;
-  }
-
-
-  .txt-serv-1 { 
-    width: 100%;
-    height: 500px;
-  }
-
-
-
-  .serv-2 {
-    margin: auto;
-    background-color: #b3b4b6 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    
-  }
-
-  .img-serv-2 {
-    width: 100%;
-    margin: 0;
-  }
-
-  .img-serv-2 video {
-
-    width: 100%;
-    height: 500px;
-    margin: 0;
-  }
-
-
-  .txt-serv-2 { 
-
-    width: 100%;
-    height: 100%;
-  }
-  
-
-
-
-  /* Config de Container-3 */
-
-
-  .imagen-fondo {
-    background-image: url(imagenes/imagen-fondo.jpg);
-
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 30em;
-    margin-top: 45px;
-    border: solid black 3px;
-
-  }
-  hr {
-
-    border: 0;
-
-    height: 2px;
-
-    background: #333;
-
-    background-image: linear-gradient(to right, #8abe8f, #333, #8abe8f);
 
 }
-  .sobre-nosotros {
-    
-    text-align: center;
-    margin: auto;
-    background-color: #8abe8f;
-    margin-top: 100px;
-    padding: 10px;
-  }
-  
+
+body {
+  background: #fefefa;
+  align-items: center;
+  justify-content: center;
+
+}
 
 
 
-  /* Config de Container-4 */
+/* Config de colores */
+:root {
+  --primary-color: #ca394c;
+  /* Rojo principal */
+  --accent-color: #e74c3c;
+  /* Rojo de acento */
+  --text-color-oscuro: #333333;
+  /* Texto oscuro */
+  --text-color-blanco: #faf5f5;
+  /* Texto claro */
+  --dark-gray: #4b4b4b;
+  /* Gris oscuro */
+}
 
-  .ubicacion {
-    margin-top: 45px;
-    width: 100%;
-    height: 300px; 
-  }
+
+.container-1 {
+  background-image: url(imagenes/camion1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+
+.intro-empresas {
+  background-color: #8abe8f;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200%;
+  height: 100px;
+}
+
+.sobre-nosotros {
+  background-color: #8abe8f;
+  width: 80%;
+  height: 160px;
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  opacity: 0.8  ;
+  border-radius: 10px;
+
+}
+/*.sobre-nosotros p {
+
+  font-size: small;
+  width: 90%;
+  height: 100px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  letter-spacing: 0.5px;
+  word-spacing: 5px;
+}
 
 
 
-  /* Config de Container-5 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Config de Container-2 */
+
+.container-2 {
+
+  margin: auto;
+  display: flex;
+}
+
+.serv-1 {
+  margin: auto;
+  background-color: #b3b4b6;
+  ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.img-serv-1 {
+  width: 100%;
+  margin: auto;
+}
+
+.img-serv-1 img {
+
+  width: 100%;
+  height: 500px;
+}
+
+
+.txt-serv-1 {
+  width: 100%;
+  height: 500px;
+}
+
+
+
+.serv-2 {
+  margin: auto;
+  background-color: #b3b4b6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.img-serv-2 {
+  width: 100%;
+  margin: 0;
+}
+
+.img-serv-2 video {
+
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+
+.txt-serv-2 {
+
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* Config de Container-3 */
+
+
+.imagen-fondo {
+  background-image: url(imagenes/imagen-fondo.jpg);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 30em;
+  margin-top: 45px;
+  border: solid black 3px;
+
+}
+
+hr {
+
+  border: 0;
+
+  height: 2px;
+
+  background: #333;
+
+  background-image: linear-gradient(to right, #8abe8f, #333, #8abe8f);
+
+}
+
+.sobre-nosotros {
+
+  text-align: center;
+  margin: auto;
+  background-color: #8abe8f;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+
+
+
+/* Config de Container-4 */
+
+.ubicacion {
+  margin-top: 45px;
+  width: 100%;
+  height: 300px;
+}
+
+
+
+/* Config de Container-5 */
 
   .intro-empresas {
     
@@ -215,175 +256,3 @@
   .intro-empresas h2 {
     color: white;
   }
-
-
-  /* Config de Container-6 */
-   .container-6 {
-    background-color: #edeaea;
-  }
-  
-  .nuestras-redes {
-    text-align: center;
-    margin: auto;
-    background-color: black;
-    margin-top: 45px;
-    
-  }
- 
-  .nuestras-redes h2{
-    color: white;
-  }
-  .container-final {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .example-2 {
-    display: flex;
-    padding-top: 20px;
-    
-  }
-  .enlace-redes {
-    color: white;
-  }
-  ul  {
-    list-style: none;
-    
-    }
-
-    .iconos-final {
-      padding: 30px;
-    }
-  
-    
-    .redes-final {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .redes-final .iconos-final {
-    margin: 0 10px;
-    position: relative;
-    }
-    .redes-final .iconos-final .enlace-redes {
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    opacity: 0;
-    visibility: hidden;
-    font-size: 14px;
-    transition: all 0.3s ease;
-    }
-    .redes-final .iconos-final:hover .enlace-redes {
-    opacity: 1;
-    visibility: visible;
-    top: -5px;
-    }
-    .redes-final .iconos-final a {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: #4d4d4d;
-    background-color: #fff;
-    transition: all 0.3s ease-in-out;
-    }
-    .redes-final .iconos-final a:hover {
-    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
-    }
-    .redes-final .iconos-final a svg {
-    position: relative;
-    z-index: 1;
-    width: 30px;
-    height: 30px;
-    }
-    .redes-final .iconos-final a:hover {
-    color: white;
-    }
-    .redes-final .iconos-final a .filled {
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    background-color: #000;
-    transition: all 0.3s ease-in-out;
-    }
-    .redes-final .iconos-final a:hover .filled {
-    height: 100%;
-    }
-    
-    .redes-final .iconos-final a[data-social="whatsapp"] .filled,
-    .redes-final .iconos-final a[data-social="whatsapp"] ~ .enlace-redes {
-    background-color: #128c7e;
-    }
-    
-    .redes-final .iconos-final a[data-social="facebook"] .filled,
-    .redes-final .iconos-final a[data-social="facebook"] ~ .enlace-redes {
-    background-color: #3b5998;
-    }
-    .redes-final .iconos-final a[data-social="instagram"] .filled,
-    .redes-final .iconos-final a[data-social="instagram"] ~ .enlace-redes {
-    background: linear-gradient(
-    45deg,
-    #405de6,
-    #5b51db,
-    #b33ab4,
-    #c135b4,
-    #e1306c,
-    #fd1f1f
-    );
-    color: white;
-    }
-    .redes-final .iconos-final a[data-social="youtube"] .filled,
-    .redes-final .iconos-final a[data-social="youtube"] ~ .enlace-redes {
-    background-color: #ff0000;
-    }
-
-
-    .container-final {
-      color: white;
-      background-color: #000;
-    }
-    .copyright {
-      margin-right: 200px;
-      overflow: hidden;
-      color: white;
-
-    }
-    
-
-    .acentoceleste {
-      color: rgb(11, 234, 174);
-    }
-
-    .soporte-tel {
-      overflow: hidden;
-
-    }
-
-    .soporte-tel h3 {
-      margin-bottom: 10px;
-      margin-left: 20px;
-      color: lightblue;
-      overflow: hidden;
-
-    }
-
-    .soporte-tel .down {
-      padding-right: 150px;
-      overflow: hidden;
-
-    }
-    .kianzo a {
-      color:  rgb(11, 234, 174);
-    }
-
