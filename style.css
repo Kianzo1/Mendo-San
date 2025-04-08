@@ -20,21 +20,6 @@ body {
 
 
 
-/* Config de colores */
-:root {
-  --primary-color: #ca394c;
-  /* Rojo principal */
-  --accent-color: #e74c3c;
-  /* Rojo de acento */
-  --text-color-oscuro: #333333;
-  /* Texto oscuro */
-  --text-color-blanco: #faf5f5;
-  /* Texto claro */
-  --dark-gray: #4b4b4b;
-  /* Gris oscuro */
-}
-
-
 .container-1 {
   background-image: url(imagenes/camion1.webp);
   background-position: center;
