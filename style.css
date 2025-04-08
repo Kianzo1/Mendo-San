@@ -1,228 +1,259 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Orbitron', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    max-width: 100%;
-  
-  
-  
-  }
-  
-  body {
-    background: #fefefa;
-    align-items: center;
-    justify-content: center;
-  
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Orbitron', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  max-width: 100%;
 
 
-
-  /* Config de colores */
-:root {
-    --primary-color: #ca394c;
-    /* Rojo principal */
-    --accent-color: #e74c3c;
-    /* Rojo de acento */
-    --text-color-oscuro: #333333;
-    /* Texto oscuro */
-    --text-color-blanco: #faf5f5;
-    /* Texto claro */
-    --dark-gray: #4b4b4b;
-    /* Gris oscuro */
-  }
-  
-
-  .container-1 {
-    background-image: url(imagenes/camion1.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-  }
-  
-
-  .intro-empresas {
-    background-color: #8abe8f;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-  }
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Config de Container-2 */
-
-  .container-2 {
-
-    margin: auto;
-    display: flex;
-  }
-  .serv-1 {
-    margin: auto;
-    background-color: #b3b4b6; ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    
-  }
-
-  .img-serv-1 {
-    width: 100%;
-    margin: auto;
-  }
-  .img-serv-1 img {
-
-    width: 100%;
-    height: 500px;
-  }
-
-
-  .txt-serv-1 { 
-    width: 100%;
-    height: 500px;
-  }
-
-
-
-  .serv-2 {
-    margin: auto;
-    background-color: #b3b4b6 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    
-  }
-
-  .img-serv-2 {
-    width: 100%;
-    margin: 0;
-  }
-
-  .img-serv-2 video {
-
-    width: 100%;
-    height: 500px;
-    margin: 0;
-  }
-
-
-  .txt-serv-2 { 
-
-    width: 100%;
-    height: 100%;
-  }
-  
-
-
-
-  /* Config de Container-3 */
-
-
-  .imagen-fondo {
-    background-image: url(imagenes/imagen-fondo.jpg);
-
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 30em;
-    margin-top: 45px;
-    border: solid black 3px;
-
-  }
-  hr {
-
-    border: 0;
-
-    height: 2px;
-
-    background: #333;
-
-    background-image: linear-gradient(to right, #8abe8f, #333, #8abe8f);
 
 }
-  .sobre-nosotros {
-    
-    text-align: center;
-    margin: auto;
-    background-color: #8abe8f;
-    margin-top: 100px;
-    padding: 10px;
-  }
-  
+
+body {
+  background: #fefefa;
+  align-items: center;
+  justify-content: center;
+
+}
 
 
 
-  /* Config de Container-4 */
+/* Config de colores */
+:root {
+  --primary-color: #ca394c;
+  /* Rojo principal */
+  --accent-color: #e74c3c;
+  /* Rojo de acento */
+  --text-color-oscuro: #333333;
+  /* Texto oscuro */
+  --text-color-blanco: #faf5f5;
+  /* Texto claro */
+  --dark-gray: #4b4b4b;
+  /* Gris oscuro */
+}
 
-  .ubicacion {
-    margin-top: 45px;
-    width: 100%;
-    height: 300px; 
-  }
+
+.container-1 {
+  background-image: url(imagenes/camion1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+
+.intro-empresas {
+  background-color: #8abe8f;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200%;
+  height: 100px;
+}
+
+.sobre-nosotros {
+  background-color: #8abe8f;
+  width: 80%;
+  height: 160px;
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  opacity: 0.8  ;
+  border-radius: 10px;
+
+}
+/*.sobre-nosotros p {
+
+  font-size: small;
+  width: 90%;
+  height: 100px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  letter-spacing: 0.5px;
+  word-spacing: 5px;
+}
 
 
 
-  /* Config de Container-5 */
 
-  .intro-empresas {
-    
-    text-align: center;
-    margin: auto;
-    background-color: black;
-    margin-top: 45px;
-  }
-  .intro-empresas h2 {
-    color: white;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Config de Container-2 */
+
+.container-2 {
+
+  margin: auto;
+  display: flex;
+}
+
+.serv-1 {
+  margin: auto;
+  background-color: #b3b4b6;
+  ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.img-serv-1 {
+  width: 100%;
+  margin: auto;
+}
+
+.img-serv-1 img {
+
+  width: 100%;
+  height: 500px;
+}
+
+
+.txt-serv-1 {
+  width: 100%;
+  height: 500px;
+}
+
+
+
+.serv-2 {
+  margin: auto;
+  background-color: #b3b4b6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.img-serv-2 {
+  width: 100%;
+  margin: 0;
+}
+
+.img-serv-2 video {
+
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+
+.txt-serv-2 {
+
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* Config de Container-3 */
+
+
+.imagen-fondo {
+  background-image: url(imagenes/imagen-fondo.jpg);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 30em;
+  margin-top: 45px;
+  border: solid black 3px;
+
+}
+
+hr {
+
+  border: 0;
+
+  height: 2px;
+
+  background: #333;
+
+  background-image: linear-gradient(to right, #8abe8f, #333, #8abe8f);
+
+}
+
+.sobre-nosotros {
+
+  text-align: center;
+  margin: auto;
+  background-color: #8abe8f;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+
+
+
+/* Config de Container-4 */
+
+.ubicacion {
+  margin-top: 45px;
+  width: 100%;
+  height: 300px;
+}
+
+
+
+/* Config de Container-5 */
+
+.intro-empresas {
+
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  margin-top: 45px;
+}
+
+.intro-empresas h2 {
+  color: white;
+}
