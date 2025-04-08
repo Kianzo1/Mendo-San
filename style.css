@@ -215,3 +215,175 @@
   .intro-empresas h2 {
     color: white;
   }
+
+
+  /* Config de Container-6 */
+   .container-6 {
+    background-color: #edeaea;
+  }
+  
+  .nuestras-redes {
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    margin-top: 45px;
+    
+  }
+ 
+  .nuestras-redes h2{
+    color: white;
+  }
+  .container-final {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .example-2 {
+    display: flex;
+    padding-top: 20px;
+    
+  }
+  .enlace-redes {
+    color: white;
+  }
+  ul  {
+    list-style: none;
+    
+    }
+
+    .iconos-final {
+      padding: 30px;
+    }
+  
+    
+    .redes-final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .redes-final .iconos-final {
+    margin: 0 10px;
+    position: relative;
+    }
+    .redes-final .iconos-final .enlace-redes {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    }
+    .redes-final .iconos-final:hover .enlace-redes {
+    opacity: 1;
+    visibility: visible;
+    top: -5px;
+    }
+    .redes-final .iconos-final a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    }
+    .redes-final .iconos-final a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+    }
+    .redes-final .iconos-final a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    }
+    .redes-final .iconos-final a:hover {
+    color: white;
+    }
+    .redes-final .iconos-final a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+    }
+    .redes-final .iconos-final a:hover .filled {
+    height: 100%;
+    }
+    
+    .redes-final .iconos-final a[data-social="whatsapp"] .filled,
+    .redes-final .iconos-final a[data-social="whatsapp"] ~ .enlace-redes {
+    background-color: #128c7e;
+    }
+    
+    .redes-final .iconos-final a[data-social="facebook"] .filled,
+    .redes-final .iconos-final a[data-social="facebook"] ~ .enlace-redes {
+    background-color: #3b5998;
+    }
+    .redes-final .iconos-final a[data-social="instagram"] .filled,
+    .redes-final .iconos-final a[data-social="instagram"] ~ .enlace-redes {
+    background: linear-gradient(
+    45deg,
+    #405de6,
+    #5b51db,
+    #b33ab4,
+    #c135b4,
+    #e1306c,
+    #fd1f1f
+    );
+    color: white;
+    }
+    .redes-final .iconos-final a[data-social="youtube"] .filled,
+    .redes-final .iconos-final a[data-social="youtube"] ~ .enlace-redes {
+    background-color: #ff0000;
+    }
+
+
+    .container-final {
+      color: white;
+      background-color: #000;
+    }
+    .copyright {
+      margin-right: 200px;
+      overflow: hidden;
+      color: white;
+
+    }
+    
+
+    .acentoceleste {
+      color: rgb(11, 234, 174);
+    }
+
+    .soporte-tel {
+      overflow: hidden;
+
+    }
+
+    .soporte-tel h3 {
+      margin-bottom: 10px;
+      margin-left: 20px;
+      color: lightblue;
+      overflow: hidden;
+
+    }
+
+    .soporte-tel .down {
+      padding-right: 150px;
+      overflow: hidden;
+
+    }
+    .kianzo a {
+      color:  rgb(11, 234, 174);
+    }
+
